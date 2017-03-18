@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <b>
+  <div class="main">
+    <div class="block inline btn btn-success"id="green"></div>
+    <div class="block inline btn btn-danger"id="red"></div>
+    <div class="block inline btn btn-warning"id="yellow"></div>
+    <div class="block inline btn btn-primary"id="blue"></div>
+    <div class="telo">
+      <div class="row text-center" id="telotitle"><b>Simon</b></div>
+  <div class="row" id="righter">
+    <div id="count" class="text-center">
+      0
+    </div>
+    <div id="startbtn" class="btn btn-info  btn-lg"><span class="glyphicon glyphicon-play-circle"></span></div>
+    <div id="strict" class="btn btn-default btn-lg text-center"><span class="glyphicon glyphicon-off"></span></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-1" id="text-one">count</div>
+    <div class="col-xs-1" id="text-two">start</div>
+    <div class="col-xs-1" id="text-three">strict</div>
+  </div>
+  <div class="btn btn-default btn-lg" id="restart"><span class="glyphicon glyphicon-repeat"></span> Restart</div>
+  </div>
+
+  </div>
+<audio id="greenaudio">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.ogg"></source>
+</audio>
+<audio id="redaudio">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.ogg"></source>
+</audio>
+<audio id="yellowaudio">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.ogg"></source>
+</audio>
+<audio id="blueaudio">
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+	<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.ogg"></source>
+</audio>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

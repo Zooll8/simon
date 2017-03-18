@@ -1,0 +1,136 @@
+body {
+  background-color: #f8f8ff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  position: absolute;
+  height: 506px;
+  width: 506px;
+  background-color: white;
+  margin: 150px 300px 150px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  -webkit-box-shadow: -1px 13px 63px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 13px 63px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 13px 63px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.inline {
+  float: left;
+}
+
+.block {
+  margin: 5px;
+  height: 240px;
+  width: 240px;
+  z-index: 1;
+  border: 2px solid grey;
+}
+
+#green {
+  border-radius: 300px 0 0 0;
+  &:hover {
+    background-color: #64C936;
+  }
+}
+
+.hlgreen {
+  background-color: #64C936 !important;
+}
+
+#red {
+  border-radius: 0 300px 0 0;
+  background-color: #C02942;
+  &:hover {
+    background-color: #ff1a1a !important;
+  }
+}
+
+.hlred {
+  background-color: #ff1a1a !important;
+}
+
+#yellow {
+  border-radius: 0 0 0 300px;
+  &:hover {
+    background-color: #FED961;
+  }
+}
+
+.hlyellow {
+  background-color: #FED961 !important;
+}
+
+#blue {
+  border-radius: 0 0 300px 0;
+  &:hover {
+    background-color: #3CB5B5 !important;
+  }
+}
+
+.hlblue {
+  background-color: #3CB5B5 !important;
+}
+
+.telo {
+  position: absolute;
+  z-index: 5;
+  height: 300px;
+  width: 300px;
+  border: 1px solid grey;
+  margin-top: 100px;
+  margin-left: 100px;
+  background: white;
+  border-radius: 50%;
+}
+
+#telotitle {
+  margin-top: 20px;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+#count {
+  padding-top: 15px;
+  width: 70px;
+  height: 50px;
+  border: 1px solid grey;
+  margin-left: 40px;
+  border-radius: 12px;
+  background-color: #dfdfe5;
+}
+
+#startbtn {
+  position: absolute;
+  margin-top: -48px;
+  border: 1px solid grey;
+  margin-left: 137px;
+}
+
+#strict {
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 220px;
+  background-color: #FFDE00;
+  border: 1px solid grey;
+}
+
+#text-one {
+  margin-left: 43px;
+}
+
+#text-two {
+  margin-left: 60px;
+}
+
+#text-three {
+  margin-left: 52px;
+}
+
+#restart {
+  margin-top: 40px;
+  margin-left: 90px;
+  border: 1px solid grey;
+}
